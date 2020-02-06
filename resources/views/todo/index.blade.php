@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <h1 class="page-header">ToDoの一覧</h1>
+    <h1 class="page-header">{{ $user->name }}のToDoの一覧</h1>
     <p class="text-right">
         <a href="/todo/create" class="btn btn-success">新規作成</a>
     </p>
